@@ -1,0 +1,102 @@
+// font size
+$font-size: 32px;
+$white: white;
+
+// Theme 1 ------------------------------------
+
+//font-Colors
+$primary-clr-1: hsl(221, 14%, 31%);
+
+//Background Colors
+$bg-1:  hsl(222, 26%, 31%);
+$toggle-background-1: hsl(223, 31%, 20%);
+$screen-background-1: hsl(224, 36%, 15%);
+
+// Key Colors
+$key-bg-1: hsl(30, 25%, 89%);
+$key-shadow-1: hsl(28, 16%, 65%);
+
+
+$function-key-bg-1: hsl(225, 21%, 49%);
+$function-key-shadow-1:  hsl(224, 28%, 35%);
+
+$equals-bg-1: hsl(6, 63%, 50%);
+$equals-shadow-1: hsl(6, 70%, 34%);
+
+$theme-1:   $bg-1, 
+            $white, 
+            $screen-background-1,
+            $toggle-background-1, 
+            $key-bg-1,
+            $key-shadow-1,
+            $primary-clr-1,
+            $function-key-bg-1, 
+            $function-key-shadow-1,
+            $equals-bg-1, 
+            $equals-shadow-1;
+
+
+// Theme 2 ------------------------------------------
+
+//font-Colors
+$primary-clr-2: hsl(60, 10%, 19%);
+
+//Background Colors
+$bg-2:  hsl(0, 0%, 90%);
+$toggle-background-2: hsl(0, 5%, 81%);
+$screen-background-2: hsl(0, 0%, 93%);
+
+// Key Colors
+$key-bg-2: hsl(45, 7%, 89%);
+$key-shadow-2: hsl(35, 11%, 61%);
+
+$function-key-bg-2: hsl(185, 42%, 37%);
+$function-key-shadow-2:  hsl(185, 58%, 25%);
+
+$equals-bg-2: hsl(25, 98%, 40%);
+$equals-shadow-2: hsl(25, 99%, 27%);
+
+$theme-2:   $bg-2, 
+            $primary-clr-2, 
+            $screen-background-2,
+            $toggle-background-2, 
+            $key-bg-2,
+            $key-shadow-2,
+            $primary-clr-2,
+            $function-key-bg-2, 
+            $function-key-shadow-2,
+            $equals-bg-2, 
+            $equals-shadow-2;
+
+// Theme 3 ------------------------------------------
+
+//font-Colors
+$primary-clr-3: hsl(52, 100%, 62%);
+
+//Background Colors
+$bg-3:  hsl(268, 75%, 9%);
+$toggle-background-3: hsl(268, 71%, 12%);
+$screen-background-3: hsl(268, 71%, 12%);
+
+// Key Colors
+$key-bg-3: hsl(268, 47%, 21%);
+$key-shadow-3: hsl(290, 70%, 36%);
+
+
+$function-key-bg-3: hsl(281, 89%, 26%);
+$function-key-shadow-3:  hsl(285, 91%, 52%);
+
+$equals-bg-3: hsl(176, 100%, 44%);
+$equals-shadow-3: hsl(177, 92%, 70%);
+
+$theme-3:   $bg-3, 
+            $primary-clr-3, 
+            $screen-background-3,
+            $toggle-background-3, 
+            $key-bg-3,
+            $key-shadow-3,
+            $primary-clr-3,
+            $function-key-bg-3, 
+            $function-key-shadow-3,
+            $equals-bg-3, 
+            $equals-shadow-3;

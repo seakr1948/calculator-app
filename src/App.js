@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import Header from './Components/Header';
+import KeyPad from './Components/KeyPad';
+import Screen from './Components/Screen';
+import './Sass/App.scss'
+
 
 function App() {
+
+  
+  const [currentTheme, setCurrentTheme] = useState(0);
+  const themes = ['theme-1', 'theme-2', 'theme-3'];
+  const bg = ['bg-1', 'bg-2', 'bg-3'];
+  
+  document.body.className = bg[currentTheme];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`App flex ${themes[currentTheme]}`}>
+      <main className='calculator-container flex'>
+        <Header setTheme={setCurrentTheme} currentTheme={currentTheme} themes={themes}/>
+        <Screen />
+        <KeyPad />
+      </main>
     </div>
   );
 }
