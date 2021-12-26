@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Header from './Components/Header';
 import KeyPad from './Components/KeyPad';
 import Screen from './Components/Screen';

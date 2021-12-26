@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 
 const KeyPad = ({output, setOutput, arithmetic, setArithmetic}) => {
 
@@ -107,14 +107,12 @@ const KeyPad = ({output, setOutput, arithmetic, setArithmetic}) => {
                 setOutput(String(temp))
                 setA(String(temp))
                 break;
+            default:
+                break;
         }
         
         console.log(temp);
         
-    }
-
-    const set_var = async (output, setVar) => {
-        await setVar(output);
     }
 
     return (
