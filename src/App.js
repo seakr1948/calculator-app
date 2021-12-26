@@ -15,6 +15,8 @@ function App() {
   //   let keys = document.getElementsByClassName('keypad');
   //   // console.log(keys[0].children);
 
+  //  Method half works. Does click buttton but adds more than one key. Not sure why.
+
   //   document.addEventListener('keyup', (e) => {
   //     e.preventDefault();
 
