@@ -115,6 +115,8 @@ const KeyPad = ({output, setOutput, arithmetic, setArithmetic}) => {
         
     }
 
+
+    // Tried adding keyup and keydown to buttons but nothing happens
     return (
         <div className='keypad grid' >
             {/* First Row */}
