@@ -1,9 +1,14 @@
 import React from 'react'
 
-const Screen = () => {
+const Screen = ({output}) => {
+
+    // Sets the cursor at the end of the string so that the 
+    // tail end of the number is followed
+    
+
     return (
         <div className='screen'>
-            <input type="text" value="399,981"/>
+            <input id="screen" type="text" value={output} readOnly/>
         </div>
     )
 }

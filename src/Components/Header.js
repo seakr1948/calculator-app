@@ -1,4 +1,5 @@
 import React from 'react'
+import ThemeToggle from './ThemeToggle'
 
 const Header = ({setTheme, currentTheme, themes}) => {
     return (
@@ -6,18 +7,7 @@ const Header = ({setTheme, currentTheme, themes}) => {
           <h1>
             calc
           </h1>
-          <div className="theme">
-            <button 
-                onClick={() => {
-                    const nextTheme = (currentTheme + 1) % themes.length;
-                    setTheme(nextTheme);
-                    document.body.className = '';
-                    document.body.classList.add(themes[nextTheme]);
-                }}
-            >
-              {themes[currentTheme]}
-            </button>
-          </div>
+          <ThemeToggle setTheme={setTheme} currentTheme={currentTheme} themes={themes}/>
         </div>
     )
 }
