@@ -219,6 +219,11 @@ KeyPad
 }
 
 .key:active{
+    outline: none;
+    transform: translateY(2px);
+}
+
+.key-down{
     transform: translateY(2px);
 }
 
